@@ -1,0 +1,22 @@
+#Region "XSD Links"
+    Private Sub llAPXSD_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llAPXSD.LinkClicked
+        System.Diagnostics.Process.Start("http://document.villagemanagementsoftware.com/xmlvalidation/ap.xsd")
+    End Sub
+
+    Private Sub llCollectionXML_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llCollectionXML.LinkClicked
+        System.Diagnostics.Process.Start("http://document.villagemanagementsoftware.com/xmlvalidation/vmscollectionsynchronization.xsd")
+    End Sub
+
+    Private Sub llDocumentRequestXSD_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llDocumentRequestXSD.LinkClicked
+        System.Diagnostics.Process.Start("http://document.villagemanagementsoftware.com/xmlvalidation/DemandRequestV30.xsd")
+    End Sub
+
+    Private Sub llPropertyXSD_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llPropertyXSD.LinkClicked, llMasterXSD.LinkClicked
+        System.Diagnostics.Process.Start("http://document.villagemanagementsoftware.com/xmlvalidation/vmsproperty.xsd")
+    End Sub
+
+    Private Sub llVideoDiscussion_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles llVideoDiscussion.LinkClicked
+        System.Diagnostics.Process.Start("http://video.villagemanagementsoftware.com/demo/20170526VMSXChangeIntegrationDiscussion.mp4")
+    End Sub
+#End Region
+End Class

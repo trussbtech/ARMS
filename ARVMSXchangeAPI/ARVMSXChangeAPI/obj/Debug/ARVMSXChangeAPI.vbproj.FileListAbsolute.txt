@@ -1,0 +1,3 @@
+C:\arvmsAPI_project\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbprojAssemblyReference.cache
+C:\arvmsAPI_project\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXchangeAPI.Resources.resources
+C:\arvmsAPI_project\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbproj.GenerateResource.cache
