@@ -13,33 +13,11 @@ Public Class ARVMSXChangeAPI
     ''' Function manages the bit map for the request of information through the VMSAccountData, DownloadProperty. Function returns the bit map based on the selection checkboxes
     ''' </summary>
     Dim iInformationBit As Integer = 0
-
-
-    Public Sub InformationBit(bitcalls As String)
-        iInformationBit += 256 'VMSStructure
-
-        Select Case bitcalls
-            Case "Owner"
-                iInformationBit += 1 'Retreive list f Partner Keys
-            Case "PropertyData"
-                iInformationBit += 1 'Owner
-                iInformationBit += 32768 'Property Insurance
-                iInformationBit += 131072 'Property Accounting
-            Case "CCR"
-                iInformationBit += 1 'Owner)
-                iInformationBit += 1 'Owner Compliance
-                iInformationBit += 4096 'VendorInsurance
-            Case "Orders"
-                iInformationBit += 1 'Owner
-                iInformationBit += 131072 'PropertyAccounting
-                iInformationBit += 64 'OwnerWorkOrder
-
-        End Select
-
+    iInformationBit += 256 'VMSStructure
 
     End Sub
 
-    Private Function CreateXMLFile(inString As String) As Integer
+    Pub Function CreateXMLFile(inString As String) As Stringlic
 
         Dim sFile As String = System.IO.Path.GetTempPath & "VMS"
 
@@ -61,7 +39,7 @@ Public Class ARVMSXChangeAPI
     ' Function downloads property data, using the Property Tab and Information Bit flag, 
     ' calling VMSDataXChange.DownloadProperty
     '
-    Private Function DownloadProperty(PartnerKey As String, VendorID As String, VendorPassword As String,
+    Public Function DownloadProperty(PartnerKey As String, VendorID As String, VendorPassword As String,
                            PropertyCompanyKey As String, PropertyResident As String,
                            PropertyResidentContactKeys As String, InformationBit As Long, dtpTransactionAsOf As Date) As Integer
 

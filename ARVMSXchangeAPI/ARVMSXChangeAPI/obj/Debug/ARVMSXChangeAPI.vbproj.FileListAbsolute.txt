@@ -1,3 +1,7 @@
 C:\arvmsAPI_project\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbprojAssemblyReference.cache
 C:\arvmsAPI_project\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXchangeAPI.Resources.resources
 C:\arvmsAPI_project\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbproj.GenerateResource.cache
+C:\repo\ARMS\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbprojAssemblyReference.cache
+C:\repo\ARMS\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXchangeAPI.Resources.resources
+C:\repo\ARMS\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbproj.GenerateResource.cache
+C:\repo\ARMS\ARVMSXchangeAPI\ARVMSXchangeAPI\obj\Debug\ARVMSXChangeAPI.vbproj.CoreCompileInputs.cache
